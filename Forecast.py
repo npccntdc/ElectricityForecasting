@@ -40,7 +40,7 @@ def main():
     # Inputs
     api_key = st.sidebar.text_input("Weather API Key", type="password")
     num_days = st.sidebar.slider("Forecast Days", 1, 3, 3)
-    gust_threshold = st.sidebar.slider("Wind Gust Threshold (mph)", 20, 30, 40, 50)
+    gust_threshold = st.sidebar.slider("Wind Gust Threshold (mph)", 10, 20, 30)
 
     cities = {
         "Karachi": (24.8607, 67.0011),
